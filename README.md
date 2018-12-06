@@ -1,2 +1,1 @@
-# cakephp-rest-api-docs
-CakePHP REST API documentation
+# CakePHP REST API documentation
