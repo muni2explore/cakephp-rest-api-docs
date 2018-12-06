@@ -98,6 +98,8 @@ class RecipesController extends AppController
 ```
 In RESTful controllers often we use parsed extensions to serve up different views based on different kinds of requests (ex. JSON, XML, TEXT, HMTL). Since we are dealing with REST API, as a result we need send output either JSON or XML format using CakePHP’s built-in [JSON and XML views](https://book.cakephp.org/3.0/en/views/json-and-xml-views.html).
 
+**Note: There are two ways you can generate data views. The first is by using the _serialize key, and the second is by creating normal template files.**
+
 By using the built in XmlView we can define a _serialize view variable. This special view variable is used to define which view variables XmlView should serialize into XML.
 
 If we wanted to modify the data before it is converted into XML we should not define the _serialize view variable in controller, and instead use template files. We place the REST views for our RecipesController inside src/Template/Recipes/xml. We can also use the Xml for quick-and-easy XML output in those views. Here’s what our index view might look like:
