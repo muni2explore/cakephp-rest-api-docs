@@ -7,7 +7,7 @@ composer create-project --prefer-dist cakephp/app cake_rest_api
 ```
 ## Step 2: Enable REST API 
 
-To enable REST API we need to add a few lines to setup resource routes in your config/routes.php file.
+To enable REST API we need to add a few lines to [setup resource routes](https://book.cakephp.org/3.0/en/development/routing.html#resource-routes) in your config/routes.php file.
 
 ```php
 // In config/routes.php...
