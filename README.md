@@ -96,7 +96,7 @@ class RecipesController extends AppController
     }
 }
 ```
-In RESTful controllers often we use parsed extensions to serve up different views based on different kinds of requests (ex. JSON, XML, TEXT, HMTL). Since we are dealing with REST API, as a result we need send output either JSON or XML format using CakePHP’s built-in JSON and XML views.
+In RESTful controllers often we use parsed extensions to serve up different views based on different kinds of requests (ex. JSON, XML, TEXT, HMTL). Since we are dealing with REST API, as a result we need send output either JSON or XML format using CakePHP’s built-in [JSON and XML views](https://book.cakephp.org/3.0/en/views/json-and-xml-views.html).
 
 By using the built in XmlView we can define a _serialize view variable. This special view variable is used to define which view variables XmlView should serialize into XML.
 
