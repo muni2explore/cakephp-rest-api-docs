@@ -111,3 +111,8 @@ $xml = Xml::fromArray(['response' => $recipes]);
 echo $xml->asXML();
 ```
 
+Now run the following command to make your application use the plugin:
+
+```bash
+bin/cake plugin load Crud
+```
