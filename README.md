@@ -1,5 +1,15 @@
 # CakePHP REST API documentation
 
+## CAKE BAKE COMMAND
+
+```bash
+$ cake bake all posts
+
+$ cake bake controller posts
+
+$ cake bake model posts
+```
+
 ## Step 1: Intsall CakePHP using Composer
 
 ```bash
