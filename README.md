@@ -8,6 +8,32 @@ $ cake bake all posts
 $ cake bake controller posts
 
 $ cake bake model posts
+
+
+- all
+- behavior
+- cell
+- command
+- component
+- controller
+- fixture
+- form
+- helper
+- mailer
+- middleware
+- migration
+- migration_diff
+- migration_snapshot
+- model
+- plugin
+- seed
+- shell
+- shell_helper
+- task
+- template
+- test
+- twig_template
+
 ```
 
 ## Step 1: Intsall CakePHP using Composer
