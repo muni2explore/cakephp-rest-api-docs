@@ -9,6 +9,7 @@ $ cake bake controller posts
 
 $ cake bake model posts
 
+$ cake bake template posts
 
 - all
 - behavior
